@@ -1,0 +1,247 @@
+.woocommerce-account .dz-content { background: #f5f1e7; }
+.woocommerce-account .entry-content { max-width: none; }
+.woocommerce-account .entry-content > .woocommerce { margin: 0; }
+.dz-account-page { padding: 4px 0 38px; }
+.dz-account-layout { display: grid; grid-template-columns: 245px minmax(0, 1fr); gap: 22px; align-items: start; }
+.dz-account-main { min-width: 0; }
+.woocommerce-account .dz-account-main .woocommerce-MyAccount-content { float: none; width: 100%; }
+
+.woocommerce-account .dz-account-sidebar { float: none; width: 100%; position: sticky; top: 112px; padding: 18px; border-radius: 24px; background: var(--ink); color: #fff; box-shadow: var(--shadow); }
+.dz-account-user { display: flex; align-items: center; gap: 12px; padding: 7px 6px 20px; border-bottom: 1px solid rgba(255,255,255,.1); }
+.dz-account-avatar { width: 48px; height: 48px; flex: 0 0 48px; display: grid; place-items: center; border-radius: 16px; background: #bed85a; color: var(--ink); font-size: 1.2rem; font-weight: 900; }
+.dz-account-user-copy { min-width: 0; }
+.dz-account-user-copy strong, .dz-account-user-copy small { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dz-account-user-copy strong { font-size: .9rem; }
+.dz-account-user-copy small { color: #bfc4b9; font-size: .7rem; direction: ltr; text-align: right; }
+.dz-account-sidebar ul { display: grid; gap: 6px; margin: 16px 0 0; padding: 0; list-style: none; }
+.dz-account-sidebar li { margin: 0; }
+.dz-account-sidebar li::before { display: none; }
+.dz-account-sidebar a { min-height: 45px; padding: 0 12px; display: flex; align-items: center; gap: 10px; border-radius: 12px; color: #dfe2da; font-size: .82rem; }
+.dz-account-sidebar a:hover { background: rgba(255,255,255,.07); color: #fff; }
+.dz-account-sidebar .is-active a { background: #bed85a; color: var(--ink); font-weight: 900; }
+.dz-account-sidebar .woocommerce-MyAccount-navigation-link--customer-logout a { margin-top: 8px; color: #efb2a9; }
+.dz-account-sidebar .woocommerce-MyAccount-navigation-link--customer-logout.is-active a { color: var(--ink); }
+.dz-account-menu-icon { width: 20px; height: 20px; flex: 0 0 20px; }
+.dz-account-menu-icon svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.8; }
+.dz-account-side-note { margin: 17px 6px 0; color: #aeb4a8; font-size: .67rem; line-height: 1.8; }
+
+.dz-account-welcome { position: relative; overflow: hidden; min-height: 192px; padding: 30px; display: flex; align-items: center; justify-content: space-between; gap: 28px; border-radius: 25px; background: var(--ink); color: #fff; box-shadow: var(--shadow); }
+.dz-account-welcome::after { content: ''; position: absolute; left: -95px; bottom: -220px; width: 310px; height: 310px; border: 68px solid rgba(190,216,90,.1); border-radius: 50%; }
+.dz-account-welcome > * { position: relative; z-index: 1; }
+.dz-account-eyebrow { color: #bed85a; font-size: .75rem; font-weight: 900; }
+.dz-account-welcome h1 { margin: 6px 0 9px; color: #fff; font-size: clamp(1.65rem,4vw,2.8rem); line-height: 1.3; }
+.dz-account-welcome p { margin: 0; color: #c7ccc1; font-size: .88rem; }
+.dz-account-latest-status { min-width: 220px; padding: 18px; border: 1px solid rgba(255,255,255,.16); border-radius: 18px; background: rgba(255,255,255,.07); }
+.dz-account-latest-status span { display: block; color: #bcc2b7; font-size: .74rem; }
+.dz-account-latest-status strong { display: block; margin: 4px 0 10px; color: #bed85a; font-size: 1.08rem; }
+.dz-account-latest-status a { color: #fff; font-size: .76rem; font-weight: 900; }
+
+.dz-account-stats { display: grid; grid-template-columns: repeat(3,1fr); gap: 13px; margin: 18px 0; }
+.dz-account-stat { min-width: 0; padding: 18px; display: flex; align-items: center; gap: 13px; border: 1px solid var(--line); border-radius: 18px; background: #fff; }
+.dz-account-stat-icon { width: 45px; height: 45px; flex: 0 0 45px; display: grid; place-items: center; border-radius: 14px; background: #eef1df; color: var(--olive-dark); font-size: 1.25rem; font-weight: 900; }
+.dz-account-stat small, .dz-account-stat strong { display: block; }
+.dz-account-stat small { color: var(--muted); font-size: .72rem; }
+.dz-account-stat strong { font-size: 1.05rem; }
+.dz-account-stat .woocommerce-Price-amount { color: inherit; }
+
+.dz-account-dashboard-grid { display: grid; grid-template-columns: 1.25fr .75fr; gap: 17px; }
+.dz-account-card { padding: 21px; border: 1px solid var(--line); border-radius: 20px; background: #fff; }
+.dz-account-card-head { display: flex; align-items: center; justify-content: space-between; gap: 15px; margin-bottom: 16px; }
+.dz-account-card-head h2 { margin: 0; font-size: 1rem; }
+.dz-account-card-head a { color: var(--olive-dark); font-size: .73rem; font-weight: 800; }
+.dz-account-order-top { padding-bottom: 14px; display: flex; align-items: flex-start; justify-content: space-between; gap: 15px; border-bottom: 1px solid var(--line); }
+.dz-account-order-top strong, .dz-account-order-top small { display: block; }
+.dz-account-order-top small { margin-top: 3px; color: var(--muted); font-size: .72rem; }
+.dz-account-status { display: inline-flex; align-items: center; gap: 6px; padding: 6px 10px; border-radius: 999px; background: #f5ead9; color: #9a682a; font-size: .7rem; font-weight: 800; white-space: nowrap; }
+.dz-account-status::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.dz-status-processing { background: #e7eef7; color: #3f6f9e; }
+.dz-status-completed { background: #e5f1e7; color: #367744; }
+.dz-status-cancelled, .dz-status-refunded, .dz-status-failed { background: #f7e5e2; color: #a44539; }
+.dz-account-order-total { padding-top: 14px; display: flex; justify-content: space-between; gap: 15px; }
+.dz-account-order-total span { color: var(--muted); font-size: .78rem; }
+.dz-account-order-total strong { font-size: .92rem; }
+.dz-account-track { margin-top: 22px; display: grid; grid-template-columns: repeat(4,1fr); direction: rtl; }
+.dz-account-track span { position: relative; padding-top: 25px; color: #aaa; font-size: .64rem; text-align: center; }
+.dz-account-track span::before { content: ''; position: absolute; top: 5px; right: calc(50% - 9px); z-index: 2; width: 18px; height: 18px; border: 4px solid #f4f2eb; border-radius: 50%; background: #ddd; }
+.dz-account-track span::after { content: ''; position: absolute; top: 13px; right: 50%; width: 100%; height: 2px; background: #ddd; }
+.dz-account-track span:first-child::after { display: none; }
+.dz-account-track .is-done { color: var(--olive-dark); font-weight: 800; }
+.dz-account-track .is-done::before, .dz-account-track .is-done::after { background: var(--olive); }
+.dz-account-empty { min-height: 165px; display: grid; place-items: center; align-content: center; gap: 14px; color: var(--muted); text-align: center; }
+.dz-account-empty .button { background: var(--ink); color: #fff; }
+
+.dz-account-quick-list { display: grid; gap: 9px; }
+.dz-account-quick-list > a { padding: 13px; display: flex; align-items: center; justify-content: space-between; gap: 12px; border: 1px solid var(--line); border-radius: 14px; }
+.dz-account-quick-list > a:hover { border-color: var(--olive); }
+.dz-account-quick-list strong, .dz-account-quick-list small { display: block; }
+.dz-account-quick-list strong { font-size: .84rem; }
+.dz-account-quick-list small { color: var(--muted); font-size: .7rem; }
+.dz-account-quick-list b { padding: 7px 10px; border-radius: 9px; background: #f0f2e3; color: var(--olive-dark); font-size: .7rem; }
+
+.dz-account-main .woocommerce-MyAccount-content > h2,
+.dz-account-main .woocommerce-MyAccount-content > h3 { margin-top: 0; }
+.dz-account-main .woocommerce-orders-table,
+.dz-account-main .shop_table,
+.dz-account-main .woocommerce-Address,
+.dz-account-main form.edit-account,
+.dz-account-main form.edit-address,
+.dz-account-main .woocommerce-order-details,
+.dz-account-main .woocommerce-customer-details { padding: 21px; border: 1px solid var(--line); border-radius: 20px; background: #fff; }
+.dz-account-main .shop_table { overflow: hidden; }
+.dz-account-main .shop_table th, .dz-account-main .shop_table td { padding: 13px; }
+.dz-account-main .woocommerce-Addresses { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 15px; }
+.dz-account-main .woocommerce-Addresses.col2-set::before,
+.dz-account-main .woocommerce-Addresses.col2-set::after { content: none; }
+.dz-account-main .woocommerce-Addresses.col2-set > .woocommerce-Address { float: none; width: auto; min-width: 0; }
+.dz-account-main .woocommerce-Address-title { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; }
+.dz-account-main .woocommerce-Address-title h2 { margin: 0; font-size: 1rem; }
+.dz-account-main .woocommerce-Address-title .edit { float: none; display: inline-flex; align-items: center; min-height: 42px; padding: 6px 12px; border-radius: 10px; background: #eef1df; color: var(--olive-dark); font-size: .82rem; line-height: 1.5; }
+.dz-account-main .woocommerce-Address address { margin-top: 15px; color: #555b52; font-style: normal; overflow-wrap: anywhere; }
+.dz-account-main fieldset { margin: 18px 0 0; padding: 18px; border: 1px solid var(--line); border-radius: 16px; }
+.dz-account-main .form-row { margin-bottom: 13px; }
+.dz-account-main .input-text { min-height: 45px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 12px; background: #fff; }
+.dz-account-main .input-text:focus { border-color: var(--olive); box-shadow: 0 0 0 4px rgba(116,129,61,.12); outline: none; }
+.dz-account-main form.edit-address select { width: 100%; min-height: 45px; padding: 8px 11px; border: 1px solid var(--line); border-radius: 12px; background: #fff; color: var(--ink); font: inherit; }
+.dz-account-main form.edit-address select:focus { border-color: var(--olive); box-shadow: 0 0 0 4px rgba(116,129,61,.12); outline: none; }
+.dz-address-guide { margin: 0 0 18px; padding: 21px; display: flex; align-items: center; justify-content: space-between; gap: 20px; border: 1px solid #d9debd; border-radius: 20px; background: #f6f8eb; }
+.dz-address-guide h2 { margin: 6px 0; font-size: 1.05rem; }
+.dz-address-guide p { margin: 0; color: var(--muted); font-size: .78rem; line-height: 1.9; }
+.dz-address-guide-badge { display: inline-flex; padding: 5px 9px; border-radius: 999px; background: var(--olive); color: #fff; font-size: .65rem; font-weight: 900; }
+.dz-address-guide .button { flex: 0 0 auto; background: var(--ink); color: #fff; }
+.dz-account-main .button { min-height: 42px; padding: 10px 16px; border-radius: 11px; }
+.dz-account-main mark { padding: 2px 6px; border-radius: 6px; background: #eef1df; color: var(--olive-dark); }
+
+.woocommerce-account:not(.logged-in) .entry-content > .woocommerce { width: min(940px,100%); margin: auto; }
+.woocommerce-account:not(.logged-in) .u-columns { display: grid; grid-template-columns: repeat(2,1fr); gap: 18px; }
+.woocommerce-account:not(.logged-in) .u-column1,
+.woocommerce-account:not(.logged-in) .u-column2 { float: none; width: auto; padding: 26px; border: 1px solid var(--line); border-radius: 22px; background: #fff; }
+.woocommerce-account:not(.logged-in) .woocommerce-form { padding: 0; border: 0; }
+
+.woocommerce-account:not(.logged-in) .dz-content { padding-top: 30px; }
+.woocommerce-account:not(.logged-in) .entry-content > .woocommerce { width: min(1080px,100%); }
+.dz-auth-page { padding: 0 0 42px; }
+.dz-auth-intro { position: relative; overflow: hidden; min-height: 185px; margin-bottom: 20px; padding: 30px 34px; display: flex; align-items: center; justify-content: space-between; gap: 25px; border-radius: 26px; background: var(--ink); color: #fff; box-shadow: var(--shadow); }
+.dz-auth-intro::after { content: ''; position: absolute; left: -95px; bottom: -210px; width: 315px; height: 315px; border: 67px solid rgba(190,216,90,.11); border-radius: 50%; }
+.dz-auth-intro > * { position: relative; z-index: 1; }
+.dz-auth-eyebrow { color: #bed85a; font-size: .76rem; font-weight: 900; }
+.dz-auth-intro h1 { margin: 6px 0 8px; color: #fff; font-size: clamp(1.8rem,4vw,2.8rem); line-height: 1.25; }
+.dz-auth-intro p { max-width: 600px; margin: 0; color: #c9cec4; font-size: .88rem; line-height: 1.9; }
+.dz-auth-intro-badge { min-width: 172px; padding: 17px; display: grid; place-items: center; gap: 7px; border: 1px solid rgba(255,255,255,.14); border-radius: 18px; background: rgba(255,255,255,.07); }
+.dz-auth-intro-badge span { width: 42px; height: 42px; display: grid; place-items: center; border-radius: 14px; background: #bed85a; color: var(--ink); font-size: 1.35rem; font-weight: 900; }
+.dz-auth-intro-badge small { color: #fff; font-size: .72rem; font-weight: 800; }
+.dz-auth-grid { display: grid; grid-template-columns: .88fr 1.12fr; gap: 18px; align-items: start; }
+.dz-auth-grid.is-phone-entry { grid-template-columns: minmax(0,560px); justify-content: center; }
+.dz-auth-grid.is-registration { grid-template-columns: minmax(0,700px); justify-content: center; }
+.dz-auth-card[hidden] { display: none !important; }
+.woocommerce-account:not(.logged-in) .dz-auth-card { margin: 0; padding: 26px; border: 1px solid var(--line); border-radius: 22px; background: #fff; box-shadow: 0 13px 35px rgba(24,29,22,.06); }
+.dz-auth-card-login { border-top: 3px solid var(--ink) !important; }
+.dz-auth-card-register { border-top: 3px solid #bed85a !important; }
+.dz-auth-card-head { margin-bottom: 22px; display: flex; align-items: center; gap: 13px; }
+.dz-auth-icon { width: 48px; height: 48px; flex: 0 0 48px; display: grid; place-items: center; border-radius: 15px; background: #eef1df; color: var(--olive-dark); }
+.dz-auth-icon svg { width: 25px; height: 25px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.dz-auth-card-head h2 { margin: 0 0 4px; font-size: 1.08rem; }
+.dz-auth-card-head p { margin: 0; color: var(--muted); font-size: .72rem; }
+.dz-auth-card .form-row { float: none; width: 100%; margin: 0 0 15px; padding: 0; }
+.dz-auth-card .form-row label { display: block; margin: 0 0 7px; color: #30342d; font-size: .76rem; font-weight: 800; }
+.dz-auth-card .required { color: #9e3e35; }
+.woocommerce-account .dz-auth-card .form-row input.input-text { width: 100%; min-height: 48px; padding: 10px 13px; border: 1px solid #dddacf; border-radius: 12px; background: #fbfaf7; color: var(--ink); font: inherit; direction: rtl; }
+.woocommerce-account .dz-auth-card .form-row input[type="tel"], .woocommerce-account .dz-auth-card .form-row input[type="email"], .woocommerce-account .dz-auth-card #reg_national_id { direction: ltr; text-align: right; }
+.woocommerce-account .dz-auth-card .form-row input.input-text:focus { border-color: var(--olive); background: #fff; box-shadow: 0 0 0 4px rgba(116,129,61,.12); outline: none; }
+.dz-auth-name-row { display: grid; grid-template-columns: repeat(2,1fr); gap: 12px; }
+.dz-auth-options { margin: 2px 0 17px; display: flex; align-items: center; justify-content: space-between; gap: 12px; color: var(--muted); font-size: .7rem; }
+.dz-auth-options label { margin: 0; display: inline-flex; align-items: center; gap: 7px; cursor: pointer; }
+.dz-auth-options input { accent-color: var(--olive); }
+.dz-auth-options a { color: var(--olive-dark); font-weight: 800; }
+.woocommerce-account .dz-auth-submit.button { width: 100%; min-height: 49px; padding: 11px 18px; border: 0; border-radius: 12px; background: var(--ink); color: #fff; font-size: .83rem; font-weight: 900; box-shadow: none; }
+.woocommerce-account .dz-auth-submit.button:hover { background: var(--olive-dark); color: #fff; }
+.dz-auth-card-register .dz-auth-submit.button { background: var(--olive-dark); }
+.dz-auth-card-register .dz-auth-submit.button:hover { background: var(--ink); }
+.dz-auth-privacy { margin: -1px 0 15px; color: var(--muted); font-size: .66rem; line-height: 1.8; }
+.dz-registration-reset { display: block; margin: -3px 0 15px; color: var(--olive-dark); font-size: .72rem; font-weight: 900; text-align: center; }
+.dz-otp-login { display: grid; gap: 2px; }
+.dz-registration-otp { margin: 2px 0 15px; padding: 14px; border: 1px solid var(--line); border-radius: 13px; background: #fbfaf7; }
+.dz-registration-otp .form-row { margin-top: 13px; margin-bottom: 0; }
+.dz-registration-otp .dz-otp-status { margin-bottom: -4px; }
+.dz-otp-code-input { letter-spacing: .35em; text-align: center !important; direction: ltr !important; font-size: 1.15rem !important; font-weight: 900 !important; }
+.dz-otp-code-stage[hidden] { display: none !important; }
+.dz-otp-code-stage { margin-top: 17px; padding-top: 17px; border-top: 1px solid var(--line); }
+.dz-otp-code-stage .input-text { letter-spacing: .35em; text-align: center !important; direction: ltr !important; font-size: 1.15rem !important; font-weight: 900 !important; }
+.dz-otp-timer { margin: -3px 0 13px; padding: 10px 12px; display: flex; align-items: center; justify-content: space-between; gap: 12px; border: 1px solid #d9debd; border-radius: 11px; background: #f6f8eb; color: var(--olive-dark); }
+.dz-otp-timer span { font-size: .7rem; font-weight: 800; }
+.dz-otp-timer strong { min-width: 58px; color: var(--ink); font-size: 1rem; font-variant-numeric: tabular-nums; direction: ltr; text-align: center; }
+.dz-otp-timer.is-expired { border-color: #efd0cb; background: #fff2f0; color: #9e3e35; }
+.dz-otp-timer.is-expired strong { color: #9e3e35; }
+.dz-otp-actions { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 9px; align-items: center; }
+.dz-otp-change { min-height: 49px; padding: 10px 13px; border: 1px solid var(--line); border-radius: 12px; background: #f6f4ed; color: var(--olive-dark); font: inherit; font-size: .72rem; font-weight: 900; cursor: pointer; }
+.dz-otp-change:hover { border-color: var(--olive); background: #eef1df; }
+.dz-otp-status { min-height: 24px; margin: 10px 0 0; color: var(--muted); font-size: .7rem; line-height: 1.8; }
+.dz-otp-status.is-error { color: #9e3e35; }
+.dz-otp-status.is-success { color: #557021; }
+.dz-auth-card button:disabled { opacity: .62; cursor: wait; }
+.dz-auth-divider { position: relative; margin: 17px 0; color: #92978d; font-size: .68rem; text-align: center; }
+.dz-auth-divider::before { content: ''; position: absolute; top: 50%; right: 0; left: 0; height: 1px; background: var(--line); }
+.dz-auth-divider span { position: relative; z-index: 1; padding: 0 10px; background: #fff; }
+.dz-password-login { border: 1px solid var(--line); border-radius: 13px; background: #fbfaf7; }
+.dz-password-login summary { padding: 13px 15px; color: var(--olive-dark); font-size: .75rem; font-weight: 900; cursor: pointer; list-style-position: inside; }
+.dz-password-login[open] summary { border-bottom: 1px solid var(--line); }
+.woocommerce-account:not(.logged-in) .dz-password-form { margin: 0; padding: 17px; border: 0; background: transparent; }
+.woocommerce-account:not(.logged-in) .woocommerce-notices-wrapper { width: min(1080px,100%); margin: 0 auto 15px; }
+.woocommerce-account:not(.logged-in) .woocommerce-error,
+.woocommerce-account:not(.logged-in) .woocommerce-message,
+.woocommerce-account:not(.logged-in) .woocommerce-info { border-radius: 14px; }
+
+@media (max-width: 900px) {
+	.dz-account-layout { grid-template-columns: minmax(0, 1fr); }
+	.woocommerce-account .dz-account-sidebar { position: static; }
+	.dz-account-sidebar ul { grid-template-columns: repeat(auto-fit, minmax(94px, 1fr)); }
+	.dz-account-sidebar a { justify-content: center; }
+	.dz-account-side-note, .dz-account-user { display: none; }
+	.dz-account-dashboard-grid { grid-template-columns: 1fr; }
+	.dz-account-welcome { align-items: flex-start; flex-direction: column; }
+	.dz-account-latest-status { width: 100%; min-width: 0; }
+	.dz-auth-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 650px) {
+	.woocommerce-account .dz-content { padding-top: 20px; padding-bottom: 95px; }
+	.dz-account-page { padding-bottom: 0; }
+	.dz-account-layout { gap: 14px; }
+	.woocommerce-account .dz-account-sidebar { padding: 6px; border-radius: 17px; }
+	.dz-account-sidebar ul { grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); gap: 4px; margin: 0; }
+	.dz-account-sidebar a { min-height: 52px; padding: 6px 3px; flex-direction: column; gap: 4px; font-size: .72rem; line-height: 1.35; text-align: center; }
+	.dz-account-sidebar .woocommerce-MyAccount-navigation-link--customer-logout a { margin-top: 0; }
+	.dz-account-menu-icon, .dz-account-menu-icon svg { width: 19px; height: 19px; }
+	.dz-account-welcome { min-height: auto; padding: 23px; }
+	.dz-account-stats { grid-template-columns: 1fr; }
+	.dz-account-card { padding: 17px; }
+	.dz-account-track span { font-size: .56rem; }
+	.dz-account-main .woocommerce-Addresses { grid-template-columns: minmax(0, 1fr); }
+	.dz-account-main .shop_table_responsive { padding: 12px; }
+	.dz-address-guide { align-items: stretch; flex-direction: column; }
+	.dz-address-guide .button { width: 100%; text-align: center; }
+	.woocommerce-account:not(.logged-in) .u-columns { grid-template-columns: 1fr; }
+	.woocommerce-account:not(.logged-in) .u-column1,
+	.woocommerce-account:not(.logged-in) .u-column2 { padding: 21px; }
+	.woocommerce-account:not(.logged-in) .dz-content { padding-top: 18px; padding-bottom: 35px; }
+	.dz-auth-page { padding-bottom: 20px; }
+	.dz-auth-intro { min-height: auto; padding: 23px; }
+	.dz-auth-intro-badge { display: none; }
+	.woocommerce-account:not(.logged-in) .dz-auth-card { padding: 20px; }
+	.dz-auth-name-row { grid-template-columns: 1fr; gap: 0; }
+	.dz-auth-options { align-items: flex-start; flex-direction: column; }
+	.dz-otp-actions { grid-template-columns: 1fr; }
+}
+
+.dz-favorites-heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.dz-favorites-heading h2 { margin: 0; }
+.dz-favorites-heading > span { padding: 4px 10px; border-radius: 99px; background: #eef1df; color: var(--olive-dark); font-size: .8rem; }
+.dz-favorites-grid { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 275px), 1fr)); gap: 12px; margin: 0; padding: 0; }
+.dz-favorites-grid > li { min-width: 0; padding: 12px; border: 1px solid var(--line); border-radius: 16px; background: #fffdf8; }
+.dz-favorite-product { display: flex; align-items: center; gap: 12px; }
+.dz-favorite-product img { flex: 0 0 72px; width: 72px; height: 72px; object-fit: cover; border-radius: 10px; }
+.dz-favorite-product > span { min-width: 0; overflow-wrap: anywhere; }
+.dz-favorite-product strong, .dz-favorite-price { display: block; }
+.dz-favorite-price { margin-top: 5px; color: var(--olive-dark); font-size: .85rem; }
+.dz-favorites-grid .dz-favorite-form { display: flex; justify-content: flex-end; margin-top: 8px; }
+.dz-favorites-grid .dz-favorite-form .button { background: transparent; border: 1px solid var(--line); color: var(--ink); font-size: .76rem; }
+.dz-favorites-grid .dz-favorite-form .button:hover { background: #f4ede3; }
